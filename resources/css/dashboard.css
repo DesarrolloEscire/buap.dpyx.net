@@ -1,0 +1,205 @@
+.container.app-inner-layout__content,
+.container.app-inner-layout__content .tab-content>.container {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.row:not(:first-of-type) {
+    padding: 20px 0px;
+}
+
+.title-text {
+    font-weight: 700;
+}
+
+hr {
+    border: solid 2px #003b5c;
+}
+
+.blue-background {
+    background-color: #003b5c !important;
+    color: white;
+}
+
+.light-blue-background {
+    background-color: #26a1dc !important;
+    border: solid 1px #26a1dc !important;
+    color: white;
+}
+
+.blue-text {
+    color: #003b5c;
+}
+
+.text-center {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.banner-section {
+    margin: auto -15px;
+}
+
+.banner-section #carouselBanners .carousel-inner {
+    background: url('../images/dashboard/others/carousel-background.jpg') center fixed no-repeat;
+    background-color: #003b5cde;
+}
+
+.carousel-item .background-img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+/* .banner-section #carouselBanners .carousel-inner .carousel-item,
+.banner-section #carouselBanners .carousel-inner .carousel-item {
+    height: 100% !important;
+    background-attachment: scroll !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+} */
+
+.banner-section #carouselBanners .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px;
+    margin: auto;
+}
+
+.card-static .card-body {
+    height: 350px;
+    min-height: 350px;
+}
+
+.background-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-image: url('../images/dashboard/others/continua-aprendiendo.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-container img {
+    height: 100%;
+}
+
+.card-content {
+    position: absolute;
+    z-index: 2;
+    background-color: #003b5c77 !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+    color: white;
+}
+
+.card-1 .card-content .button_continuar_curso {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.card-2 {
+    background-color: #B2B2B2;
+    color: white;
+}
+
+.card-2 .teacher_container {
+    overflow-y: scroll;
+    width: 100%;
+    height: 200px;
+}
+
+.card-2 .teacher_container .teacher_item {
+    padding: 10px 0px;
+    height: 90px;
+    min-height: 90px;
+    display: flex;
+}
+
+.card-2 .teacher_container .teacher_item .teacher_photo {
+    margin: auto 0px;
+    height: 70px;
+    min-height: 70px;
+    width: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    border: solid 1px #003b5c;
+    overflow: hidden;
+}
+
+.card-2 .teacher_container .teacher_item .teacher_photo img {
+    margin-top: -50%;
+    margin-bottom: -50%;
+    top: 0px;
+    bottom: 0px;
+}
+
+.card-2 .teacher_container .teacher_item .teacher_info {
+    margin: auto;
+    width: calc(100% - 90px);
+    height: 100%;
+    padding: 15px;
+}
+
+.card-2 .teacher_container .teacher_item .teacher_info .teacher_contact {
+    margin: auto 0px;
+}
+
+.owl-carousel {
+    z-index: 2;
+}
+
+.owl-carousel .item {
+    height: 480px;
+    min-height: 480px;
+    border: solid 1px #003b5c;
+}
+
+.teachers_background {
+    z-index: 1;
+    height: 350px;
+    min-height: 350px;
+    position: absolute;
+    margin: 280px -30px;
+}
+
+.row-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-circle {
+    display: flex;
+    align-items: center;
+    min-width: 90px;
+    min-height: 90px;
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    color: white !important;
+    background-color: lightgray;
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    margin: 10px auto;
+    text-decoration: none !important;
+}
+
+.btn-circle i {
+    margin: auto;
+    font-size: 40px;
+}
+
+.btn-circle:hover i {
+    font-size: 45px;
+}

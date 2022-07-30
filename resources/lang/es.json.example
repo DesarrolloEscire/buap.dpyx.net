@@ -1,0 +1,26 @@
+{
+    "enviar cuestionario": "enviar evaluación",
+    "containerName": "REA",
+    "containerNamePlural": "REAs",
+
+    "messages.Controllers.Repositories.SendRepositoryController.AlertSuccess": "¡El REA ha sido enviado exitosamente!",
+
+    "messages.views.instructions.evaluators.text1": "en donde serán listados los REAs que te pertenecen. Con el botón",
+    "messages.views.instructions.evaluators.text2": "Revisa los REAs",
+    "messages.views.instructions.evaluators.text3": "¿Cómo evaluar los REAs?",
+
+    "messages.views.instructions.users.text1": "del REA que desees",
+    "messages.views.instructions.users.text2": "El REA fue <span class='text-success'><b>aceptada</b>",
+    "messages.views.instructions.users.text3": "El REA",
+
+    "messages.views.instructions.admins.text1": "los REAs",
+
+    "messages.views.livewire.evaluations.categories.questions.index.text1": "el REA",
+
+    "messages.views.livewire.repositories.index.text1": "Este módulo permite listar los REAs pertenecientes a los usuarios.",
+
+    "messages.views.livewire.repositories.statistics.show.text1": "Estadisticas del REA",
+
+    "messages.views.pdfs.evaluation.text1": " ",
+    "messages.views.pdfs.evaluation.text2": " "
+}

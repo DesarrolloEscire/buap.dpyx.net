@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.card--shadow{
+    border: 0px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+.card-body--primary{
+    border-left: 5px solid #16aaff !important;
+}
+
+.card-body--secondary{
+    border-left: 5px solid #da634b !important;
+}
+
+.label{
+    display: block;
+    background: #ededed;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+}
+
+.label--primary{
+    border-left: 5px solid #8cabbd;
+}
+
+.label--red{
+    border-left: 5px solid #bd8c8c;
+}
+
+.label__header{
+    color: #505050;
+    text-transform: uppercase;
+    @extend .font-poppins;
+    font-size: small;
+    margin: 0;
+}
+
+.status{
+    display: block;
+    padding: 5px;
+    border-radius: 0.3rem;
+    white-space: nowrap;
+    @extend .font-poppins;
+}
+
+.status--green{
+    background: #d3ffe0;
+    color: #114922;
+}
+
+.status--yellow{
+    background: #fff5d3;
+    color: #454911;
+}
+
+.status--red{
+    background: #ffd3d3;
+    color: #491111;
+}
+
+.status--sm{
+    font-size: 0.8rem;
+}
+
+.title{
+    @extend .font-poppins;
+    color: #444444;
+}
